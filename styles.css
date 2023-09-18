@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+nav {
+
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+
+    /* padding: 60px 0; */
+}
+
+nav ul {
+    text-align: center;
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+
+header {
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 64px;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+.description {
+    width: 550px;
+}
+
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0066cc;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Add transition properties */
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add box shadow on hover */
+}
+
+.sectionDef {
+    /* height: 500px; */
+    color: #ffffff;
+
+
+}
+.section1 {
+    height: auto;
+    color: #ffffff;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    padding-top: 20px; 
+    width: 70%;
+    
+}
+
+/* Card styles */
+
+.card_11{
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    /* width: 600px; */
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #000000;
+    /* Add transition for smooth effect */
+}
+.card_12{
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    /* width: 200px; */
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #000000;
+    /* Add transition for smooth effect */
+}
+.card_21{
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #000000;
+    /* Add transition for smooth effect */
+}
+.card_22{
+    
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #000000;
+    /* Add transition for smooth effect */
+}
+
+/* Add shining glass animation on hover */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.3);
+    transform: translateY(-5px);
+}
+
+/* Remove margin from the last card to prevent extra spacing */
+.card:last-child {
+    margin-right: 0;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 300px;
+}
+img{
+    height: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.footerContainer{
+ 
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+h1{
+    color: yellow;
+}
+.footer{
+    margin-top: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+}
