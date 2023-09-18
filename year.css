@@ -180,6 +180,7 @@ button:hover {
     background-color: #665e5e;
 }
 
+
 @media (max-width: 700px) {
     img{
         height: 50px;
@@ -224,5 +225,8 @@ button:hover {
   
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9ef74fac0d7806e1b1cee729fc6e697e1afca755
 
