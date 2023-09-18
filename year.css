@@ -161,3 +161,6 @@ button:hover {
     font-weight: bold;
     margin-top: 20px;
 }
+.cta-button:hover{
+    background-color: #665e5e;
+}
