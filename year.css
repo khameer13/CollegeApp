@@ -164,7 +164,7 @@ button:hover {
 }
 .cta-button:hover{
     background-color: #665e5e;
-}
+
 
 @media (max-width: 700px) {
     img{
@@ -211,3 +211,4 @@ button:hover {
   }
 
 }
+
