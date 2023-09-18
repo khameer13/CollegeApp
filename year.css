@@ -14,12 +14,16 @@ html {
 
 }
 header{
+
     padding-top: 100px;
     padding-bottom: 80px;
+    padding-top: 80px;
+
     color: rgb(11, 11, 11);
 
     font-size: 32px;
     font-family: "Wix Madefor Display", sans-serif;
+
     /*border-bottom: 3px solid #000000;
     background: #0f0c29;
     /* fallback for old browsers */
@@ -28,8 +32,11 @@ header{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .start{
-    
+    padding-top: 100px;
+    text-align: center;
+
     padding-bottom:80px;
     padding-left: 25px;
     text-shadow:  2px 2px 8px #665e5e;
@@ -217,4 +224,5 @@ button:hover {
   
   }
 
-}
+
+

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* Define the card container */
+ .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+/* Style for individual cards */
+.card {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Style for the download button */
+.download-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.main {
+    height: 300px;
+    border-bottom: 3px solid white;
+   
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main,
+h1 {
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+   font-size: 48px;
+}
+img{
+    height: 160px;
+    float: right;
+    margin-right: 200px;
+}
